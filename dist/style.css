@@ -4,12 +4,13 @@ h1
   border-style: none;
   color: #444444;
   font-size: 16px; 
-  text-align: justify;
+  text-align: center;
 }
 
 body 
 {
   font-family: 'Roboto', Helvetica, sans-serif;
+  text-align: center;
 }
 
 .container 
@@ -19,6 +20,8 @@ body
   margin: 5px; 
   font-size: 13px; 
   text-align: center; 
+  display: flex;
+  justify-content: center;
 }
 
 .offer
